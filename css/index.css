@@ -1,0 +1,105 @@
+/* Custom CTA Button */
+
+.btn-cta {
+    background-color: #58CC02;
+    border-color: #58CC02;
+    border-radius: 16px;
+    color: white;
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+    background-color: #58CC02;
+    border-color: #58CC02;
+    box-shadow: 0 0 0 .25rem rgba(62, 140, 1, 1);
+    color: white;
+}
+
+.btn-cta:active {
+    background-color: #3E8C01;
+    border-color: #3E8C01;
+    color: white;
+}
+
+.btn-cta:active:focus {
+    box-shadow: 0 0 0 .25rem rgba(34, 77, 1, 1);
+    color: white;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Urbanist';
+    font-weight: 1000;
+}
+
+.btn,
+p,
+a {
+    font-family: 'DM Sans';
+}
+
+.btn {
+    font-weight: 1000;
+}
+
+.brand-font {
+    font-family: 'Urbanist';
+    font-weight: 1000;
+}
+
+/* Other */
+
+.bg-green {
+    background-color: #58CC02;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: .75rem;
+}
+
+body {
+    padding-bottom: 3rem;
+}
+
+/* Featurettes */
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
